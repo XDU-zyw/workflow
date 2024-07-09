@@ -15,7 +15,7 @@ permissions:
 jobs:
   Pytes-API-Testing:
 
-    runs-on: windows
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
